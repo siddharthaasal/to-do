@@ -1,0 +1,42 @@
+/* Basic styling for the to-do list */
+.tasks {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling for individual task items */
+.tasks li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Styling for the task title */
+.tasks h3 {
+    flex: 1;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+/* Styling for the checkbox */
+.tasks input[type="checkbox"] {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* Optional: style the checkbox when checked */
+.tasks input[type="checkbox"]:checked {
+    background-color: #4caf50;
+    /* Change color when checked */
+    border-color: #4caf50;
+}
+
+/* .tasks li.completed {
+    text-decoration: line-through;
+    color: #999;
+} */
